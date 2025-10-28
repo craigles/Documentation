@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-<pre class="mermaid">
-    {% include_relative README.md %}
-</pre>
+
+{% include_relative README.md %}
 
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
